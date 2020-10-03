@@ -1,8 +1,4 @@
-properties([
-    parameters([
-        choice(choices: ['dev', 'qa', 'prod'], description: 'Choose Environment', name: 'environment')
-    ])
-])
+
 
 def aws_region_var = ''
 
