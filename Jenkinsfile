@@ -1,6 +1,6 @@
 node{
   stage("Test"){
-    checkout scm
+    println (env.BRANCH_NAME) 
     sh 'apache.json'
   }
 }
