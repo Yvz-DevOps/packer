@@ -1,5 +1,3 @@
-
-
 def aws_region_var = ''
 
 if(params.environment == "dev") {
